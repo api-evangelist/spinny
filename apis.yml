@@ -1,8 +1,26 @@
 aid: spinny
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spinny.png
 name: Spinny
-description: 'Spinny is a company surfaced as a portfolio company of accel, general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Spinny (Valuedrive Technologies Ltd.) is an India-based online marketplace
+  for buying and selling used cars. Every Spinny Assured car undergoes a 200-point
+  quality check and comes with a 1-year warranty, a 5-day money-back guarantee, and
+  hassle-free RC ownership transfer. The platform also offers instant online car valuation,
+  doorstep evaluation, used-car finance and EMI, car insurance, RC transfer, scrap-car
+  service, e-Challan and RTO lookups, servicing, the Spinny Max luxury tier, and a
+  Partners auction platform for dealers. Backed by Accel and General Catalyst. Spinny
+  publishes a consumer web experience and an llms.txt for AI agents but does not expose
+  a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/spinny/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Automotive
+- Used Cars
+- Marketplace
+- E-commerce
+- Car Finance
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +49,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.spinny.com
+  url: https://www.spinny.com
+- type: Blog
+  url: https://www.spinny.com/blog/
+- type: Support
+  url: https://www.spinny.com/contact-us/
+- type: TermsOfService
+  url: https://www.spinny.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.spinny.com/privacy-policy/
+- type: LLMsTxt
+  url: llms/spinny-llms.txt
+- type: DomainSecurity
+  url: security/spinny-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
